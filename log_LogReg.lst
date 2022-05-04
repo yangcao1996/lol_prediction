@@ -1,0 +1,156 @@
+Index(['t1p1_champId', 't1p1_min15_creeps', 't1p1_min15_damagetaken',
+       't1p1_min15_gold', 't1p1_min15_xp', 't1p2_champId', 't1p2_min15_creeps',
+       't1p2_min15_damagetaken', 't1p2_min15_gold', 't1p2_min15_xp',
+       't1p3_champId', 't1p3_min15_creeps', 't1p3_min15_damagetaken',
+       't1p3_min15_gold', 't1p3_min15_xp', 't1p4_champId', 't1p4_min15_creeps',
+       't1p4_min15_damagetaken', 't1p4_min15_gold', 't1p4_min15_xp',
+       't1p5_champId', 't1p5_min15_creeps', 't1p5_min15_damagetaken',
+       't1p5_min15_gold', 't1p5_min15_xp', 't2p1_champId', 't2p1_min15_creeps',
+       't2p1_min15_damagetaken', 't2p1_min15_gold', 't2p1_min15_xp',
+       't2p2_champId', 't2p2_min15_creeps', 't2p2_min15_damagetaken',
+       't2p2_min15_gold', 't2p2_min15_xp', 't2p3_champId', 't2p3_min15_creeps',
+       't2p3_min15_damagetaken', 't2p3_min15_gold', 't2p3_min15_xp',
+       't2p4_champId', 't2p4_min15_creeps', 't2p4_min15_damagetaken',
+       't2p4_min15_gold', 't2p4_min15_xp', 't2p5_champId', 't2p5_min15_creeps',
+       't2p5_min15_damagetaken', 't2p5_min15_gold', 't2p5_min15_xp', 't1_win'],
+      dtype='object')
+-----------------The 0 epoch------------------
+===train===
+Accuracy : 0.8304
+AUC Score (Train): 0.909591
+===test===
+Accuracy : 0.848
+AUC Score (Test): 0.917039
+-----------------The 1 epoch------------------
+===train===
+Accuracy : 0.8314
+AUC Score (Train): 0.909926
+===test===
+Accuracy : 0.819
+AUC Score (Test): 0.898950
+-----------------The 2 epoch------------------
+===train===
+Accuracy : 0.8309
+AUC Score (Train): 0.909874
+===test===
+Accuracy : 0.832
+AUC Score (Test): 0.902116
+-----------------The 3 epoch------------------
+===train===
+Accuracy : 0.8311
+AUC Score (Train): 0.909952
+===test===
+Accuracy : 0.809
+AUC Score (Test): 0.894976
+-----------------The 4 epoch------------------
+===train===
+Accuracy : 0.8312
+AUC Score (Train): 0.909861
+===test===
+Accuracy : 0.824
+AUC Score (Test): 0.903274
+-----------------The 5 epoch------------------
+===train===
+Accuracy : 0.8318
+AUC Score (Train): 0.910550
+===test===
+Accuracy : 0.831
+AUC Score (Test): 0.901933
+-----------------The 6 epoch------------------
+===train===
+Accuracy : 0.8313
+AUC Score (Train): 0.910020
+===test===
+Accuracy : 0.807
+AUC Score (Test): 0.890401
+-----------------The 7 epoch------------------
+===train===
+Accuracy : 0.8313
+AUC Score (Train): 0.910110
+===test===
+Accuracy : 0.858
+AUC Score (Test): 0.927436
+-----------------The 8 epoch------------------
+===train===
+Accuracy : 0.8307
+AUC Score (Train): 0.909643
+===test===
+Accuracy : 0.844
+AUC Score (Test): 0.922352
+-----------------The 9 epoch------------------
+===train===
+Accuracy : 0.8302
+AUC Score (Train): 0.909499
+===test===
+Accuracy : 0.843
+AUC Score (Test): 0.921611
+-----------------The 10 epoch------------------
+===train===
+Accuracy : 0.8319
+AUC Score (Train): 0.910933
+===test===
+Accuracy : 0.828
+AUC Score (Test): 0.885746
+-----------------The 11 epoch------------------
+===train===
+Accuracy : 0.8323
+AUC Score (Train): 0.910446
+===test===
+Accuracy : 0.835
+AUC Score (Test): 0.910635
+-----------------The 12 epoch------------------
+===train===
+Accuracy : 0.8307
+AUC Score (Train): 0.909827
+===test===
+Accuracy : 0.84
+AUC Score (Test): 0.921915
+-----------------The 13 epoch------------------
+===train===
+Accuracy : 0.8309
+AUC Score (Train): 0.909706
+===test===
+Accuracy : 0.833
+AUC Score (Test): 0.912884
+-----------------The 14 epoch------------------
+===train===
+Accuracy : 0.8318
+AUC Score (Train): 0.910763
+===test===
+Accuracy : 0.815
+AUC Score (Test): 0.898171
+-----------------The 15 epoch------------------
+===train===
+Accuracy : 0.8313
+AUC Score (Train): 0.909890
+===test===
+Accuracy : 0.804
+AUC Score (Test): 0.898782
+-----------------The 16 epoch------------------
+===train===
+Accuracy : 0.8308
+AUC Score (Train): 0.909753
+===test===
+Accuracy : 0.835
+AUC Score (Test): 0.913856
+-----------------The 17 epoch------------------
+===train===
+Accuracy : 0.8311
+AUC Score (Train): 0.909932
+===test===
+Accuracy : 0.804
+AUC Score (Test): 0.895034
+-----------------The 18 epoch------------------
+===train===
+Accuracy : 0.8303
+AUC Score (Train): 0.909712
+===test===
+Accuracy : 0.854
+AUC Score (Test): 0.922301
+-----------------The 19 epoch------------------
+===train===
+Accuracy : 0.8304
+AUC Score (Train): 0.909687
+===test===
+Accuracy : 0.838
+AUC Score (Test): 0.910900
