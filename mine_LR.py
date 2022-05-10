@@ -33,17 +33,21 @@ for i in range(epoch_num):
     #y_predprob = LR_model.predict(x_train)[:,1]
     print('===train===')
     #print(y_train.values)
-    y_train_values = np.ascontiguousarray(y_train.values, dtype=np.float32)
-#    print(y_pred)
-#    print(y_train_values)
-    #print("Accuracy : %.4g" % metrics.accuracy_score(y_train_values, y_pred))
-    print("AUC Score (Train): %f" % metrics.roc_auc_score(y_train_values, y_pred))
+    #y_train_values = np.ascontiguousarray(y_train.values, dtype=np.float32)
+    #print(y_pred)
+    #print(y_train.values)
+    y_pred[y_pred > 0.5] = 1
+    y_pred[y_pred < 0.5] = 0
+    print("Accuracy : %.4g" % metrics.accuracy_score(y_train.values, y_pred))
+    #print("AUC Score (Train): %f" % metrics.roc_auc_score(y_train_values, y_pred))
     y_pred_ = LR_model.predict(x_test)
+    y_pred_[y_pred_ > 0.5] = 1
+    y_pred_[y_pred_ < 0.5] = 0
     #y_predprob_ = LR_model.predict_proba(X_test)[:,1]
     print('===test===')
-    y_test_values = np.ascontiguousarray(y_test.values, dtype=np.float32)
-    #print("Accuracy : %.4g" % metrics.accuracy_score(y_test.values, y_pred_))
-    print("AUC Score (Test): %f" % metrics.roc_auc_score(y_test_values, y_pred_))
+    #y_test_values = np.ascontiguousarray(y_test.values, dtype=np.float32)
+    print("Accuracy : %.4g" % metrics.accuracy_score(y_test.values, y_pred_))
+    #print("AUC Score (Test): %f" % metrics.roc_auc_score(y_test_values, y_pred_))
     
 
 

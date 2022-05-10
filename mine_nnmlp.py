@@ -10,7 +10,7 @@ print(data.keys())
 
 epoch_num = 20
 
-LR_model = MLPClassifier()
+LR_model = MLPClassifier(learning_rate_init=0.009, hidden_layer_sizes=(100))
 for i in range(epoch_num):
     print('-----------------The %d epoch------------------' % i)
     target='t1_win'
